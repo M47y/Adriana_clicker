@@ -10,7 +10,7 @@ const tableRowEl = document.getElementsByClassName("color");
 const clickPowerEl = document.getElementById("clickPower");
 const endingEls = document.getElementsByClassName("konec");
 
-let money = 2000000000;
+let money = 0;
 let multiplier = 1
 let progressMultiplier = 1
 let moneyPerSecond = 0;
