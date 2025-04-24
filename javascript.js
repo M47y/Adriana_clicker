@@ -100,7 +100,7 @@ for(let i = 0; i < endingEls.length; i++) {
 
 //NASTAVENÍ SMĚRU LÉTAJÍCÍ ADRIANY
 function assignFlyingPasta(adrianaPlus, direction, topStyle, leftStyle, rotation){
-    adrianaPlus.src = "/img/funghetto.png";
+    adrianaPlus.src = "/Adriana_clicker/img/funghetto.png";
     adrianaPlus.style.position = "absolute";
     adrianaPlus.style.width = Math.floor(Math.random()*3+1) +"%";
     adrianaPlus.style.transform = "rotate(" +(direction === 1 ? '' : '-')  +rotation +"deg)";
