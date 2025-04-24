@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriana clicker</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <img class="blueSun" id="blueSun" src="img/blueSun.png">
+  <img class="slunicko" id="slunicko" src="img/slunicko.png">
+  <div class="moneyContainer">
+    <img class="ardianaCounter" src="img/adriana.png" alt="Adriana counter">
+    <p id="counter">0</p>
+    <p id="adrianaPerSecond">0 Adrian za vteřinu</p>
+  </div>
+  <img id="mainImg" src="img/adriana.png" alt="Adriana">
+  <p id="doubleClickValue">x2</p>
+  <div id="progressDiv">
+    <progress id="progress" value="0" max="100"></progress>
+    <div class="doubleClickLine" id="doubleClickLine"></div>
+  </div>
+  <div class="clickPowerContainer">
+    <p>Síla kliku</p>
+    <p id="clickPower">1</p>
+  </div>
+  <table id="table"><tbody>
+    <tr class="color">
+      <td id="biggerMargin" class="cursor"><img class="cursorImage" src="img/cursors/cursor.png" alt="Cursor"></td>
+      <td>
+        <h2>První klik</h2>
+        <div class="plusValueText">
+          <p class="plusValue">1</p>
+          <p>Adriana za klik</p>
+        </div>
+        <div class="flex">
+          <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+          <p class="costText">50</p>
+        </div>
+      </td>
+      <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+    </tr>
+      <tr class="color">
+        <td id="biggerMargin" class="cursor"><img class="cursorImage" src="img/cursors/autoclicker.png" alt="Auto clicker"></td>
+        <td>
+          <h2>Auto klik</h2>
+          <div class="plusValueText">
+            <p class="plusValue">1</p>
+            <p>Adriana za vteřinu</p>
+          </div>
+          <div class="flex">
+            <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+            <p class="costText">125</p>
+          </div>
+        </td>
+        <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+      </tr>
+      <tr class="color">
+        <td id="biggerMargin" class="cursor"><img class="cursorImage" src="img/cursors/mastercursor.png" alt="Mr.cursor"></td>
+          <td>
+            <h2>Mistr kliků</h2>
+            <div class="plusValueText">
+              <p class="plusValue">5</p>
+              <p>Adrian za klik</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">500</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+        </tr>
+        <tr class="color">
+          <td id="biggerMargin" class="cursor"><img class="cursorImage" src="img/cursors/farm.png" alt="Farma Adriany"></td>
+          <td>
+            <h2>Farma Adrian</h2>
+            <div class="plusValueText">
+              <p class="plusValue">6</p>
+              <p>Adrian za vteřinu</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">1100</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+        </tr>
+        <tr class="color">
+          <td id="biggerMargin" class="cursor"><img class="cursorImage" src="img/cursors/presidentcursor.png" alt="President cursor"></td>
+          <td>
+            <h2>CEO kliků</h2>
+            <div class="plusValueText">
+              <p class="plusValue">100</p>
+              <p>Adrian za klik</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">12000</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+        </tr>
+        <tr class="color">
+          <td class="cursor"><img class="cursorImage" src="img/cursors/manufacture.png" alt="Manufaktura Adriany"></td>
+          <td>
+            <h2>Manufaktura</h2>
+            <div class="plusValueText">
+              <p class="plusValue">200</p>
+              <p>Adrian za vteřinu</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">100000</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>  
+        </tr>
+        <tr class="color">
+          <td class="cursor"><img class="cursorImage" src="img/cursors/kingcursor.png" alt="King Cursor"></td>
+          <td>
+            <h2>Královský klik</h2>
+            <div class="plusValueText">
+              <p class="plusValue">1000</p>
+              <p>Adrian za klik</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">120000</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+        </tr>
+        <tr class="color">
+          <td class="cursor"><img class="cursorImage" src="img/cursors/factory.png" alt="Továrna na Adriany"></td>
+          <td>
+            <h2>Továrna Adrian</h2>
+            <div class="plusValueText">
+              <p class="plusValue">5000</p>
+              <p>Adrian za vteřinu</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">315000</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+        </tr>
+        <tr class="color">
+          <td class="cursor"><img class="cursorImage" src="img/cursors/emperorcursor.png" alt="Emperor clicker"></td>
+          <td>
+            <h2>Císařský klik</h2>
+            <div class="plusValueText">
+              <p class="plusValue">9000</p>
+              <p>Adrian za klik</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">22000000</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+        </tr>
+        <tr class="color">
+          <td class="cursor"><img class="cursorImage" src="img/cursors/pyramid.png" alt="Pyramida Adrian"></td>
+          <td>
+            <h2>Pyramida</h2>
+            <div class="plusValueText">
+              <p class="plusValue">100000</p>
+              <p>Adrian za vteřinu</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">81000000</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+        </tr>
+        <tr class="color">
+          <td class="cursor"><img class="cursorImage" src="img/cursors/godclicker.png" alt="God clicker"></td>
+          <td>
+            <h2>Božský klik</h2>
+            <div class="plusValueText">
+              <p class="plusValue">25000</p>
+              <p>Adrian za klik</p>
+            </div>
+            <div class="flex">
+              <img class="smallAdriana" src="img/adriana.png" alt="Small Adriana">
+              <p class="costText">300000000</p>
+            </div>
+          </td>
+          <td class="boughtUpgrades"><p class="boughtUpgradesText">0</p></td>
+        </tr>
+        <tr class="konce">
+          <td class="konec">
+            <p>Dobrý konec</p>
+            <img id="goodEnding" class="ending" src="img/cursors/cursor.png">
+            <p>1500000000</p>
+          </td>
+          <td class="konec">
+            <p>Špatný konec</p>
+            <img id="badEnding" class="ending" src="img/cursors/cursor.png">
+            <p>1500000000</p>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+</body>
+</html>
+<script src="javascript.js" onload="update(), updateSun(), updateProgress()"></script>
